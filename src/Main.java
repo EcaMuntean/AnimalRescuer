@@ -8,26 +8,26 @@ public class Main {
 
     public static void main(String[] args) {
         //Dog values
-        System.out.println(dog.name);
-        System.out.println(dog.age);
-        System.out.println(dog.favouriteActivity);
-        System.out.println(dog.favouriteFood);
+        System.out.println(dog.getName());
+        System.out.println(dog.getAge());
+        System.out.println(dog.getFavouriteActivity());
+        System.out.println(dog.getFavouriteFood());
 
         //Adoption values
-        System.out.println(adoption.name);
-        System.out.println(adoption.budget);
+        System.out.println(adoption.getName());
+        System.out.println(adoption.getBudget());
 
         //Food values
-        System.out.println(food.foodName);
-        System.out.println(food.price);
-        System.out.println(food.isAvailable);
+        System.out.println(food.getFoodName());
+        System.out.println(food.getPrice());
+        System.out.println(food.getQuantity());
 
         //Activities values
-        System.out.println(activities.activityName);
+        System.out.println(activities.getActivityName());
 
         //Vet values
-        System.out.println(vet.vetName);
-        System.out.println(vet.vetSpeciality);
+        System.out.println(vet.getVetName());
+        System.out.println(vet.getVetSpeciality());
 
     }
 }
