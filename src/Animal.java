@@ -11,6 +11,13 @@ public class Animal {
     private String favouriteFood  ;
     private String favouriteActivity;
 
+    public void makeSound(){
+        System.out.println("bark");
+    }
+    public void isHappy(){
+        System.out.println("reaction");
+    }
+
     public int getAge() {
         return age;
     }

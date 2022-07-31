@@ -20,6 +20,8 @@ public class Main {
         System.out.println(dog.getAge());
         System.out.println(dog.getFavouriteActivity());
         System.out.println(dog.getFavouriteFood());
+        dog.makeSound();
+        dog.isHappy();
 
         //Cat values
         cat.setAge(2);
@@ -30,12 +32,16 @@ public class Main {
         System.out.println(cat.getColor());
         System.out.println(cat.getName());
         System.out.println(cat.getHealthStatus());
+        cat.makeSound();
+        cat.isHappy();
 
         //Duck values
         duck.setRace("decorative");
         duck.setFavouriteFood("corn");
         System.out.println(duck.getRace());
         System.out.println(duck.getFavouriteFood());
+        duck.makeSound();
+        duck.isHappy();
 
         //Adoption values
         System.out.println(adoption.getName());
